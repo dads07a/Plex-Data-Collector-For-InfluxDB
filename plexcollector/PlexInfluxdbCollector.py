@@ -285,7 +285,7 @@ class PlexInfluxdbCollector:
                     'items': len(lib.search())
                 }
 
-                if lib.type == 'shows':
+                if lib.type == 'show':
                     log.info('Processing TV Shows.  This can take awhile for large libraries')
                     seasons = 0
                     episodes = 0
